@@ -3,10 +3,10 @@ builder = "dockerfile"
 
 [deploy]
 restartPolicyType = "on_failure"
-requiredMountPath = "/data"
-
 # Require a persistent volume mounted at /data (Railway).
 requiredMountPath = "/data"
+
+
 
 [variables]
 # NOTE: Railway injects PORT automatically.
